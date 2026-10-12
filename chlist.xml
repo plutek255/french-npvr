@@ -1,56 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="Zyne-Custom">
+<!--
+ chlist.xml
+ Configuration for the channel list for the French NPVR service.
+ Each channel has a unique identifier and displays metadata.
 
-  <channel id="tf1.fr">
-    <display-name>TF1</display-name>
-  </channel>
+ Example:
+ <channel id="ch1">
+     <name>France 2</name>
+     <category>News</category>
+ </channel>
+-->
 
-  <channel id="france2.fr">
-    <display-name>France 2</display-name>
-  </channel>
-
-  <channel id="france3.fr">
-    <display-name>France 3</display-name>
-  </channel>
-
-  <channel id="france4.fr">
-    <display-name>France 4</display-name>
-  </channel>
-
-  <channel id="france5.fr">
-    <display-name>France 5</display-name>
-  </channel>
-
-  <channel id="m6.fr">
-    <display-name>M6</display-name>
-  </channel>
-
-  <channel id="6ter.fr">
-    <display-name>6ter</display-name>
-  </channel>
-
-  <channel id="w9.fr">
-    <display-name>W9</display-name>
-  </channel>
-
-  <channel id="gulli.fr">
-    <display-name>Gulli</display-name>
-  </channel>
-
-  <channel id="tfou.fr">
-    <display-name>TFOU</display-name>
-  </channel>
-
-  <channel id="cuisine.fr">
-    <display-name>Cuisine TV</display-name>
-  </channel>
-
-  <channel id="mycuisine.fr">
-    <display-name>MyCuisine</display-name>
-  </channel>
-
-  <channel id="chivetv.us">
-    <display-name>Chive TV</display-name>
-  </channel>
-
-</tv>
+<channel_set>
+    <channel id="ch1">
+        <name>France 2</name>
+        <category>News</category>
+    </channel>
+    <channel id="ch2">
+        <name>France 3</name>
+        <category>General</category>
+    </channel>
+    <!-- Additional channels here -->
+</channel_set>
